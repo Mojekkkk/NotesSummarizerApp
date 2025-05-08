@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>NotesSummarizer</string>
+
+    <!-- Permissions -->
+    <key>NSCameraUsageDescription</key>
+    <string>We use the camera to scan content for summarization.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We use your photo library to pick images for summarizing.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We save summaries to your photo library if needed.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We use your microphone to record voice notes.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses speech recognition to convert your voice into text for summarization.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app uses the microphone to record your voice for transcription.</string>
+
+    <!-- File Access -->
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+
+    <!-- Internet Access -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
