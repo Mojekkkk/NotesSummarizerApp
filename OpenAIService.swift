@@ -3,7 +3,7 @@ import Foundation
 class OpenAIService {
     static let shared = OpenAIService()
 
-    private let apiKey = "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"
+    private let apiKey = "Your API key"
     private let endpoint = "https://api.openai.com/v1/chat/completions"
 
     func summarize(text: String, type: String, percent: Int, completion: @escaping (String) -> Void) {
